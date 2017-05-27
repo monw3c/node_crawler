@@ -1,0 +1,41 @@
+{
+  "name": "zq_news",
+  "description": "爬虫",
+  "version": "0.0.1",
+  "main": "app.js",
+  "script": {
+    "start": "babel-node app.js"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "cheerio": "0.22.0",
+    "node-schedule": "*",
+    "superagent": "3.2.1",
+    "superagent-charset": "^1.1.1",
+    "superagent-proxy": "^1.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "author": "mon",
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  }
+}
