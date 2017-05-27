@@ -6,5 +6,5 @@
 
 
 # 注意：
-请使用Node7.6以上版本，部署用pm2
+请使用Node7.6以上版本，部署用pm2，proxyFinder为抓取可用代理ip
 
